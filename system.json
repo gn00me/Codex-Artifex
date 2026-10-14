@@ -1,0 +1,34 @@
+{
+  "id": "codex-artifex",
+  "title": "Codex Artifex",
+  "version": "0.5.4d",
+  "compatibility": {
+    "minimum": 14,
+    "verified": 14
+  },
+  "authors": [
+    {
+      "name": "Pawel Pasternak"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/system.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {}
+    }
+  },
+  "socket": false,
+  "initiative": "1d12"
+}
